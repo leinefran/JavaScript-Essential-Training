@@ -1,3 +1,6 @@
+#!/usr/bin/node
+// a function that runs an analogic clock.
+
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
