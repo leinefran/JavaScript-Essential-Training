@@ -1,6 +1,7 @@
 #!/usr/bin/node
 // a function that runs an analogic clock.
 
+/* This is a static script - it runs once when the browser window is loaded. It shows the time when the bowser window was last updated, but it doesn't show the current time */
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
