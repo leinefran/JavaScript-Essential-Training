@@ -10,5 +10,5 @@ let minPosition = 130;
 let secPosition = 267;
 
 HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
-MINUTEHANDHAND.style.transform = "rotate(" + hrPosition + "deg)";
-SECONDHANDHAND.style.transform = "rotate(" + hrPosition + "deg)";
+MINUTEHANDHAND.style.transform = "rotate(" + minPosition + "deg)";
+SECONDHANDHAND.style.transform = "rotate(" + secPosition + "deg)";
