@@ -1,6 +1,5 @@
 #!/usr/bin/node
 // a function that runs an analogic clock.
-/* This is a static script - it runs once when the browser window is loaded. Therefore, the clock doesn't show the current time, but the time when the bowser window was last updated */
 
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
@@ -28,4 +27,6 @@ function runTheClock(){
 }
 
 // sets the clock to run every 1k seconds.
+/* Before applying the setInterval method to the clock, the script was static: it run only when the browser window was loaded/refreshed. Therefore, the clock wasn't showing the current time, but the time when the browser window was last updated */
+
 var interval = setInterval(runTheClock, 1000);
