@@ -21,6 +21,10 @@ var date = new Date();
 
 function runTheClock(){
 
+    hrPosition = hrPosition+(3/360);
+    minPosition = minPosition+(6/60);
+    secPosition = secPosition+6;
+
     HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
     MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
     SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
